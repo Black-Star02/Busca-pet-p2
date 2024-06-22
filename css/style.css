@@ -1,0 +1,77 @@
+header{
+    border-bottom: solid 3px rgb(254, 149, 44);
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+}
+.logo{
+    height: 100px;
+    width: 50%;
+}
+.logos{
+    height:190px;
+    width: auto;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+.links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+   
+}
+a{
+    font-size: 30px;
+    margin-left: 60px;
+    color: black;
+}
+.cadastro{
+    background-color: rgb(254, 149, 44);
+    border-radius: 10px;
+    padding: 5px;
+}
+.cadastro:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 3px rgb(254, 149, 44);
+}
+.outros:hover{
+    border-top: solid 3px rgb(254, 149, 44);
+}
+
+main{
+    margin-top: 50px;
+    height: auto;
+}
+.carrossel{
+    height: auto;
+    border-top: solid 3px rgb(254, 149, 44);
+    border-bottom: solid 3px rgb(254, 149, 44);
+    border-radius: 20px;
+}
+
+
+
+footer{
+    border-top: solid 3px rgb(254, 149, 44);
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+.contatos{
+    width: auto;
+    height: auto;
+    margin: 10px;
+
+    
+    
+}
+.conta{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 200px;
+    
+}
