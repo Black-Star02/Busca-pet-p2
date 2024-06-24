@@ -163,7 +163,68 @@ footer{
     position: relative;
     transition: 0.3s;
 }
-  
+
+/* CARROSSEL DE IMAGENS */
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+    position: relative;
+    width: 70%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    display: none;
+    width: 100%;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 /* Celular (Mobile): Pequenos: até 360px de largura. */
 @media (max-width: 360px) {
     
