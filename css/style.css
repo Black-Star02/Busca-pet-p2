@@ -1,3 +1,6 @@
+.ativo {
+  display:none;
+}
 header{
     border-bottom: solid 3px rgb(254, 149, 44);
     height: auto;
